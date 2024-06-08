@@ -1,0 +1,43 @@
+2024-06-07 21:00:09.624 RedDog.MacOS[97117:4182779] WARNING <NSToolbarItemGroup: 0x60000121aa30> -> view was automatically measured but had an ambiguous height or width and the view's frame size had a zero height or width. Did you forget to add constraints on your view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize
+2024-06-07 21:00:09.625 RedDog.MacOS[97117:4182779] WARNING <NSToolbarItemGroup: 0x60000121aa30> -> view was automatically measured but had an ambiguous height or width and the view's frame size had a zero height or width. Did you forget to add constraints on your view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize
+2024-06-07 21:00:09.626 RedDog.MacOS[97117:4182779] WARNING <NSToolbarItemGroup: 0x60000121ad00> -> view was automatically measured but had an ambiguous height or width and the view's frame size had a zero height or width. Did you forget to add constraints on your view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize
+2024-06-07 21:00:09.626 RedDog.MacOS[97117:4182779] WARNING <NSToolbarItemGroup: 0x60000121ad00> -> view was automatically measured but had an ambiguous height or width and the view's frame size had a zero height or width. Did you forget to add constraints on your view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize
+2024-06-07 21:00:12.329 RedDog.MacOS[97117:4182779] WARNING <NSToolbarItemGroup: 0x60000121ad00> -> view was automatically measured but had an ambiguous height or width and the view's frame size had a zero height or width. Did you forget to add constraints on your view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize
+2024-06-07 21:00:12.329 RedDog.MacOS[97117:4182779] WARNING <NSToolbarItemGroup: 0x60000121ad00> -> view was automatically measured but had an ambiguous height or width and the view's frame size had a zero height or width. Did you forget to add constraints on your view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize
+2024-06-07 21:00:13.434 RedDog.MacOS[97117:4182779] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+2024-06-07 21:00:14.847 RedDog.MacOS[97117:4182779] 
+Unhandled Exception:
+System.FormatException: Input string was not in a correct format.
+  at System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) [0x0001a] in <596397331ced4233a86653305d5603d7>:0 
+  at System.Number.ParseInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) [0x00016] in <596397331ced4233a86653305d5603d7>:0 
+  at System.Int32.Parse (System.String s, System.IFormatProvider provider) [0x00017] in <596397331ced4233a86653305d5603d7>:0 
+  at System.Convert.ToInt32 (System.String value) [0x0000b] in <596397331ced4233a86653305d5603d7>:0 
+  at RedDog.GamePage.OnBetClicked (System.Object sender, System.EventArgs e) [0x00055] in <b0d285baa23449debbc3d06c13f063de>:0 
+  at Xamarin.Forms.Button.Xamarin.Forms.Internals.IButtonElement.PropagateUpClicked () [0x0000a] in <d94e2f1a85914d9da1fd09356f374550>:0 
+  at Xamarin.Forms.ButtonElement.ElementClicked (Xamarin.Forms.VisualElement visualElement, Xamarin.Forms.Internals.IButtonElement ButtonElementManager) [0x0001f] in <d94e2f1a85914d9da1fd09356f374550>:0 
+  at Xamarin.Forms.Button.SendClicked () [0x00000] in <d94e2f1a85914d9da1fd09356f374550>:0 
+  at Xamarin.Forms.Platform.MacOS.ButtonRenderer.OnButtonActivated (System.Object sender, System.EventArgs eventArgs) [0x0000a] in <07221176c9624f6e93ebc4967e7df86e>:0 
+  at AppKit.ActionDispatcher.OnActivated (Foundation.NSObject sender) [0x00010] in <a351b2a0ca134ea7a02e967f305bca3e>:0 
+  at (wrapper managed-to-native) ObjCRuntime.Messaging.void_objc_msgSendSuper_IntPtr(intptr,intptr,intptr)
+  at AppKit.NSControl.MouseDown (AppKit.NSEvent theEvent) [0x00036] in <a351b2a0ca134ea7a02e967f305bca3e>:0 
+  at Xamarin.Forms.Platform.MacOS.ButtonRenderer+FormsNSButton.MouseDown (AppKit.NSEvent theEvent) [0x00011] in <07221176c9624f6e93ebc4967e7df86e>:0 
+  at (wrapper managed-to-native) AppKit.NSApplication.NSApplicationMain(int,intptr)
+  at AppKit.NSApplication.Main (System.String[] args) [0x00048] in <a351b2a0ca134ea7a02e967f305bca3e>:0 
+  at RedDog.MacOS.MainClass.Main (System.String[] args) [0x00014] in <89071497699042098437aeb77b794aee>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.FormatException: Input string was not in a correct format.
+  at System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) [0x0001a] in <596397331ced4233a86653305d5603d7>:0 
+  at System.Number.ParseInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) [0x00016] in <596397331ced4233a86653305d5603d7>:0 
+  at System.Int32.Parse (System.String s, System.IFormatProvider provider) [0x00017] in <596397331ced4233a86653305d5603d7>:0 
+  at System.Convert.ToInt32 (System.String value) [0x0000b] in <596397331ced4233a86653305d5603d7>:0 
+  at RedDog.GamePage.OnBetClicked (System.Object sender, System.EventArgs e) [0x00055] in <b0d285baa23449debbc3d06c13f063de>:0 
+  at Xamarin.Forms.Button.Xamarin.Forms.Internals.IButtonElement.PropagateUpClicked () [0x0000a] in <d94e2f1a85914d9da1fd09356f374550>:0 
+  at Xamarin.Forms.ButtonElement.ElementClicked (Xamarin.Forms.VisualElement visualElement, Xamarin.Forms.Internals.IButtonElement ButtonElementManager) [0x0001f] in <d94e2f1a85914d9da1fd09356f374550>:0 
+  at Xamarin.Forms.Button.SendClicked () [0x00000] in <d94e2f1a85914d9da1fd09356f374550>:0 
+  at Xamarin.Forms.Platform.MacOS.ButtonRenderer.OnButtonActivated (System.Object sender, System.EventArgs eventArgs) [0x0000a] in <07221176c9624f6e93ebc4967e7df86e>:0 
+  at AppKit.ActionDispatcher.OnActivated (Foundation.NSObject sender) [0x00010] in <a351b2a0ca134ea7a02e967f305bca3e>:0 
+  at (wrapper managed-to-native) ObjCRuntime.Messaging.void_objc_msgSendSuper_IntPtr(intptr,intptr,intptr)
+  at AppKit.NSControl.MouseDown (AppKit.NSEvent theEvent) [0x00036] in <a351b2a0ca134ea7a02e967f305bca3e>:0 
+  at Xamarin.Forms.Platform.MacOS.ButtonRenderer+FormsNSButton.MouseDown (AppKit.NSEvent theEvent) [0x00011] in <07221176c9624f6e93ebc4967e7df86e>:0 
+  at (wrapper managed-to-native) AppKit.NSApplication.NSApplicationMain(int,intptr)
+  at AppKit.NSApplication.Main (System.String[] args) [0x00048] in <a351b2a0ca134ea7a02e967f305bca3e>:0 
+  at RedDog.MacOS.MainClass.Main (System.String[] args) [0x00014] in <89071497699042098437aeb77b794aee>:0 

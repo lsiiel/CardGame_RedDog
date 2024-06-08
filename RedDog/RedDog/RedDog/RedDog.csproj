@@ -1,0 +1,139 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\" />
+    <None Remove="Models\" />
+    <None Remove="Images\2\10.png" />
+    <None Remove="Images\2\2.png" />
+    <None Remove="Images\2\3.png" />
+    <None Remove="Images\2\4.png" />
+    <None Remove="Images\2\5.png" />
+    <None Remove="Images\2\6.png" />
+    <None Remove="Images\2\7.png" />
+    <None Remove="Images\2\8.png" />
+    <None Remove="Images\2\9.png" />
+    <None Remove="Images\2\Ace.png" />
+    <None Remove="Images\2\Jack.png" />
+    <None Remove="Images\2\King.png" />
+    <None Remove="Images\2\Queen.png" />
+    <None Remove="Images\3\10.png" />
+    <None Remove="Images\3\2.png" />
+    <None Remove="Images\3\3.png" />
+    <None Remove="Images\3\4.png" />
+    <None Remove="Images\3\5.png" />
+    <None Remove="Images\3\6.png" />
+    <None Remove="Images\3\7.png" />
+    <None Remove="Images\3\8.png" />
+    <None Remove="Images\3\9.png" />
+    <None Remove="Images\3\Ace.png" />
+    <None Remove="Images\3\Jack.png" />
+    <None Remove="Images\3\King.png" />
+    <None Remove="Images\3\Queen.png" />
+    <None Remove="Images\4\10.png" />
+    <None Remove="Images\4\2.png" />
+    <None Remove="Images\4\3.png" />
+    <None Remove="Images\4\4.png" />
+    <None Remove="Images\4\5.png" />
+    <None Remove="Images\4\6.png" />
+    <None Remove="Images\4\7.png" />
+    <None Remove="Images\4\8.png" />
+    <None Remove="Images\4\9.png" />
+    <None Remove="Images\4\Ace.png" />
+    <None Remove="Images\4\Jack.png" />
+    <None Remove="Images\4\King.png" />
+    <None Remove="Images\4\Queen.png" />
+    <None Remove="Images\back.png" />
+    <None Remove="Images\Clubs\2.png" />
+    <None Remove="Images\Clubs\10.png" />
+    <None Remove="Images\Clubs\3.png" />
+    <None Remove="Images\Clubs\4.png" />
+    <None Remove="Images\Clubs\5.png" />
+    <None Remove="Images\Clubs\6.png" />
+    <None Remove="Images\Clubs\7.png" />
+    <None Remove="Images\Clubs\8.png" />
+    <None Remove="Images\Clubs\9.png" />
+    <None Remove="Images\Clubs\Ace.png" />
+    <None Remove="Images\Clubs\Jack.png" />
+    <None Remove="Images\Clubs\King.png" />
+    <None Remove="Images\Clubs\Queen.png" />
+    <None Remove="Images\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="EmptyXmlFile.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Diamonds\10.png" />
+    <EmbeddedResource Include="Images\Diamonds\2.png" />
+    <EmbeddedResource Include="Images\Diamonds\3.png" />
+    <EmbeddedResource Include="Images\Diamonds\4.png" />
+    <EmbeddedResource Include="Images\Diamonds\5.png" />
+    <EmbeddedResource Include="Images\Diamonds\6.png" />
+    <EmbeddedResource Include="Images\Diamonds\7.png" />
+    <EmbeddedResource Include="Images\Diamonds\8.png" />
+    <EmbeddedResource Include="Images\Diamonds\9.png" />
+    <EmbeddedResource Include="Images\Diamonds\Ace.png" />
+    <EmbeddedResource Include="Images\Diamonds\Jack.png" />
+    <EmbeddedResource Include="Images\Diamonds\King.png" />
+    <EmbeddedResource Include="Images\Diamonds\Queen.png" />
+    <EmbeddedResource Include="Images\Hearts\10.png" />
+    <EmbeddedResource Include="Images\Hearts\2.png" />
+    <EmbeddedResource Include="Images\Hearts\3.png" />
+    <EmbeddedResource Include="Images\Hearts\4.png" />
+    <EmbeddedResource Include="Images\Hearts\5.png" />
+    <EmbeddedResource Include="Images\Hearts\6.png" />
+    <EmbeddedResource Include="Images\Hearts\7.png" />
+    <EmbeddedResource Include="Images\Hearts\8.png" />
+    <EmbeddedResource Include="Images\Hearts\9.png" />
+    <EmbeddedResource Include="Images\Hearts\Ace.png" />
+    <EmbeddedResource Include="Images\Hearts\Jack.png" />
+    <EmbeddedResource Include="Images\Hearts\King.png" />
+    <EmbeddedResource Include="Images\Hearts\Queen.png" />
+    <EmbeddedResource Include="Images\Spades\10.png" />
+    <EmbeddedResource Include="Images\Spades\2.png" />
+    <EmbeddedResource Include="Images\Spades\3.png" />
+    <EmbeddedResource Include="Images\Spades\4.png" />
+    <EmbeddedResource Include="Images\Spades\5.png" />
+    <EmbeddedResource Include="Images\Spades\6.png" />
+    <EmbeddedResource Include="Images\Spades\7.png" />
+    <EmbeddedResource Include="Images\Spades\8.png" />
+    <EmbeddedResource Include="Images\Spades\9.png" />
+    <EmbeddedResource Include="Images\Spades\Ace.png" />
+    <EmbeddedResource Include="Images\Spades\Jack.png" />
+    <EmbeddedResource Include="Images\Spades\King.png" />
+    <EmbeddedResource Include="Images\Spades\Queen.png" />
+    <EmbeddedResource Include="Images\back.png" />
+    <EmbeddedResource Include="Images\Clubs\2.png" />
+    <EmbeddedResource Include="Images\Clubs\10.png" />
+    <EmbeddedResource Include="Images\Clubs\3.png" />
+    <EmbeddedResource Include="Images\Clubs\4.png" />
+    <EmbeddedResource Include="Images\Clubs\5.png" />
+    <EmbeddedResource Include="Images\Clubs\6.png" />
+    <EmbeddedResource Include="Images\Clubs\7.png" />
+    <EmbeddedResource Include="Images\Clubs\8.png" />
+    <EmbeddedResource Include="Images\Clubs\9.png" />
+    <EmbeddedResource Include="Images\Clubs\Ace.png" />
+    <EmbeddedResource Include="Images\Clubs\Jack.png" />
+    <EmbeddedResource Include="Images\Clubs\King.png" />
+    <EmbeddedResource Include="Images\Clubs\Queen.png" />
+    <EmbeddedResource Include="Images\background.jpg" />
+  </ItemGroup>
+</Project>

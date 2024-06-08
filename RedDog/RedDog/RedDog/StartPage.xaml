@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RedDog.StartPage">
+
+    <ContentPage.Content>
+        <Grid
+            HorizontalOptions = "CenterAndExpand"
+            VerticalOptions = "CenterAndExpand">
+
+            <Grid.RowDefinitions >
+                <RowDefinition Height = "Auto"/>
+                <RowDefinition Height = "Auto"/>
+                <RowDefinition Height = "Auto"/>
+                <RowDefinition Height = "Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label
+                Text = "Добро пожаловать в игру Красная Собака!"
+                FontSize = "24"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                Grid.Row = "0"/>
+
+            <Button
+                Text = "Начать игру"
+                FontSize = "18"
+                BackgroundColor = "#4CAF50"
+                TextColor = "White"
+                WidthRequest = "200"
+                HorizontalOptions = "Center"
+                Grid.Row = "1"
+                Clicked = "OnStartGameClicked"/>
+
+            <Button
+                Text = "Прочитать правила"
+                FontSize = "18"
+                BackgroundColor = "DarkBlue"
+                TextColor = "White"
+                WidthRequest = "200"
+                HorizontalOptions = "Center"
+                Grid.Row = "2"
+                Clicked = "OnGameRulesClicked"/>
+
+            <Button
+                Text = "Выйти из игры"
+                FontSize = "18"
+                BackgroundColor = "#F44336"
+                TextColor = "White"
+                WidthRequest = "200"
+                HorizontalOptions = "Center"
+                Grid.Row = "3"
+                Clicked = "OnExitGameClicked"/>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

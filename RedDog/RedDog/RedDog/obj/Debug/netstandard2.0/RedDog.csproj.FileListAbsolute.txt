@@ -1,0 +1,17 @@
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/bin/Debug/netstandard2.0/RedDog.deps.json
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/bin/Debug/netstandard2.0/RedDog.dll
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/bin/Debug/netstandard2.0/ref/RedDog.dll
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/bin/Debug/netstandard2.0/RedDog.pdb
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.csproj.AssemblyReference.cache
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.AssemblyInfoInputs.cache
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.AssemblyInfo.cs
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.csproj.CoreCompileInputs.cache
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.dll
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/refint/RedDog.dll
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/RedDog.pdb
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/GamePage.xaml.g.cs
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/StartPage.xaml.g.cs
+/Users/lsiiel/Projects/RedDog/RedDog/RedDog/obj/Debug/netstandard2.0/GameRules.xaml.g.cs

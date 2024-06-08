@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{A6BEA51C-D9C5-4562-AC23-E61CB9BD4A18}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedDog/RedDog/GamePage.xaml.cs">
+    <Files>
+      <File FileName="RedDog/RedDog/GamePage.xaml.cs" Line="235" Column="17" />
+      <File FileName="RedDog/RedDog/Models/Dealer.cs" Line="96" Column="21" />
+      <File FileName="RedDog/RedDog/StartPage.xaml.cs" Line="19" Column="1" />
+      <File FileName="RedDog/RedDog/GameRules.xaml.cs" Line="8" Column="2" />
+      <File FileName="RedDog/RedDog/Models/Card.cs" Line="3" Column="5" />
+      <File FileName="RedDog/RedDog/Models/Deck.cs" Line="5" Column="1" />
+      <File FileName="RedDog/RedDog/Models/Game.cs" Line="9" Column="17" />
+      <File FileName="RedDog/RedDog/Models/Player.cs" Line="3" Column="5" />
+      <File FileName="RedDog/RedDog/StartPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RedDog" expanded="True">
+            <Node name="RedDog" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="GamePage.xaml" expanded="True">
+                <Node name="GamePage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="GameRules.xaml" expanded="True" />
+              <Node name="StartPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RedDog.MacOS PreferredExecutionTarget="MyMacID" Xamarin.HotReload.DebuggerTimeoutException.RedDog.MacOS.HideInfoBar="True" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_7_API_29" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

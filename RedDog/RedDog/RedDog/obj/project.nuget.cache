@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0T6r+sznIWPXe0u3ix7J+mfCUnUj5t/JffA4HhsgTSlnZdhFU/zZsQ6Bij3yMEHvGtX1IgW2m5RPMsb+1mR/Fw==",
+  "success": true,
+  "projectFilePath": "/Users/lsiiel/Projects/RedDog/RedDog/RedDog/RedDog.csproj",
+  "expectedPackageFiles": [
+    "/Users/lsiiel/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/lsiiel/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/lsiiel/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/lsiiel/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512",
+    "/Users/lsiiel/.nuget/packages/xamarin.forms/5.0.0.2662/xamarin.forms.5.0.0.2662.nupkg.sha512"
+  ],
+  "logs": []
+}
